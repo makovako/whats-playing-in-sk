@@ -98,10 +98,10 @@ const create_card_from_radio = (radio) => {
     
     [{
         name: "List saved",
-        href: "/list"
+        href: "/list.html"
     },{
         name: "Pick radios",
-        href: "/pick"
+        href: "/pick.html"
     }].map(button => {
         const menu_button = document.createElement('a')
         menu_button.classList.add('menu_button')
