@@ -1,5 +1,6 @@
 const RADIO_LIST_URL = "https://www.radia.sk/_radia/radia.json";
 const NOW_PLAYING_URL = "https://onair.radia.sk/all.json";
+// TODO Save to local storage and let user pick
 const weight = {
   expres: 100,
   fun: 95,
@@ -11,12 +12,60 @@ const weight = {
   vlna: 65,
 };
 
+const get_image_url = radio_name => `https://radia.sk/_radia/loga/nadpis/${radio_name}.png`
+
 const create_card_from_radio = (radio) => {
     const card = document.createElement('div')
+    card.classList.add('card')
+
+    const background = document.createElement('div')
+    background.classList.add('background')
+    background.style.backgroundImage = `url('${get_image_url(radio.string)}')`
 
     const img_box = document.createElement('div')
+    img_box.classList.add('img_box')
+
+    const radio_name = document.createElement('p')
+    radio_name.classList.add('radio_name')
+    radio_name.textContent = radio.name
+
+    img_box.appendChild(radio_name)
 
     const text_box = document.createElement('div')
+    text_box.classList.add('text_box')
+
+    const interpret = document.createElement('p')
+    interpret.classList.add('interpret')
+    interpret.textContent = radio.interpret
+
+    const track = document.createElement('p')
+    track.classList.add('track')
+    track.textContent = radio.track
+
+    const save_button = document.createElement('button')
+    save_button.classList.add('save_button')
+    save_button.textContent = "Save"
+
+    save_button.addEventListener('click', e => {
+        // TODO save song to local storage
+        console.log('saved');
+        console.log({radio});
+          
+        save_button.classList.add('saved')
+        save_button.textContent = "Saved!"
+        setTimeout(() => {
+            save_button.classList.remove('saved')
+            save_button.textContent = "Save"
+        },3000)
+    })
+
+    text_box.appendChild(interpret)
+    text_box.appendChild(track)
+    text_box.appendChild(save_button)
+    card.appendChild(background)
+    card.appendChild(img_box)
+    card.appendChild(text_box)
+    return card
 }
 
 (async () => {
@@ -38,11 +87,11 @@ const create_card_from_radio = (radio) => {
       });
 
     const body = document.body;
+    const container = document.createElement("div");
+    container.classList.add('container')
     filtered_radios.map((radio) => {
-      const p = document.createElement("p");
-      p.textContent = `${radio.name}: ${radio.interpret} - ${radio.track}`;
-      body.appendChild(p);
+      container.appendChild(create_card_from_radio(radio));
     });
-    console.log(filtered_radios);
+    body.appendChild(container)
   }
 )();
