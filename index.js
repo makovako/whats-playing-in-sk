@@ -43,11 +43,12 @@ const create_card_from_radio = (radio) => {
     track.textContent = radio.track
 
     const save_button = document.createElement('button')
+    save_button.classList.add('button')
     save_button.classList.add('save_button')
     save_button.textContent = "Save"
 
     save_button.addEventListener('click', e => {
-        // TODO save song to local storage
+        save_radio(radio)
         console.log('saved');
         console.log({radio});
           
@@ -66,6 +67,15 @@ const create_card_from_radio = (radio) => {
     card.appendChild(img_box)
     card.appendChild(text_box)
     return card
+}
+
+const save_radio = radio => {
+    let data = JSON.parse(localStorage.getItem('saved_songs'))
+    if (data === null) {
+        data = []
+    }
+    data.push({...radio, date: Date()})
+    localStorage.setItem('saved_songs',JSON.stringify(data))
 }
 
 (async () => {

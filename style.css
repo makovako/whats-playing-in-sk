@@ -87,19 +87,31 @@ body {
     padding: 0.5rem 0;
 }
 
-.save_button {
+.button {
     outline: none;
-    border: black solid 1px;
     display: block;
     font-size: 1.5rem;
     padding: 0.5rem 0;
-    background-color: #FF8C42;
     margin: 1rem 0 0;
     border: none;
     border-radius: 15px;
-    color: #011627;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+}
+
+.delete_button {
+    background-color: #FF3C38;
+    color: #011627;
+}
+
+.date {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.save_button {
+    background-color: #FF8C42;
+    color: #011627;
 }
 
 .save_button:hover {
