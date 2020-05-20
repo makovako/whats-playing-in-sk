@@ -1,0 +1,747 @@
+{
+  "ver": "1589315675",
+  "radia": [
+    {
+      "i": 45,
+      "s": "7",
+      "t": 1,
+      "n": "R\u00e1dio 7",
+      "pl": 1,
+      "st": "264_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 129,
+      "s": "9",
+      "t": 2,
+      "n": "R\u00e1dio 9",
+      "pl": 1,
+      "st": "359_mp3-64-kbps-nizka-kvalita"
+    },
+    {
+      "i": 128,
+      "s": "aetter",
+      "t": 1,
+      "n": "R\u00e1dio Aetter",
+      "pl": 1,
+      "st": "616_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 157,
+      "s": "antena-rock",
+      "t": 1,
+      "n": "R\u00e1dio Ant\u00e9na Rock",
+      "pl": 1,
+      "st": "428_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 224,
+      "s": "antena-rock-hard",
+      "t": 2,
+      "n": "R\u00e1dio Ant\u00e9na Rock Hard",
+      "pl": 1,
+      "st": "545_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 43,
+      "s": "best-fm",
+      "t": 1,
+      "n": "R\u00e1dio Best FM",
+      "pl": 1,
+      "st": "97_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 6,
+      "s": "beta",
+      "t": 1,
+      "n": "R\u00e1dio Beta",
+      "pl": 1,
+      "st": "490_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 231,
+      "s": "beta-cz-sk-hity",
+      "t": 2,
+      "n": "R\u00e1dio Beta - \u010cesk\u00e9 a Slovensk\u00e9 hity",
+      "pl": 1,
+      "st": "560_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 230,
+      "s": "beta-hity-80s-90s",
+      "t": 2,
+      "n": "R\u00e1dio Beta - Hity 80's a 90's",
+      "pl": 1,
+      "st": "559_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 232,
+      "s": "beta-hrame-jubilantom",
+      "t": 2,
+      "n": "R\u00e1dio Beta - Hr\u00e1me Jubilantom",
+      "pl": 1,
+      "st": "561_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 257,
+      "s": "biblia",
+      "t": 2,
+      "n": "R\u00e1dio Biblia",
+      "st": "626_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 201,
+      "s": "blesk",
+      "t": 2,
+      "n": "R\u00e1dio Blesk",
+      "pl": 1,
+      "st": "469_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 147,
+      "s": "demomusic",
+      "t": 2,
+      "n": "Demomusic Radio",
+      "pl": 1,
+      "st": "387_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 7,
+      "s": "devin",
+      "t": 1,
+      "n": "R\u00e1dio Dev\u00edn",
+      "pl": 1,
+      "st": "17_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 237,
+      "s": "dobre-radio",
+      "t": 2,
+      "n": "Dobr\u00e9 r\u00e1dio",
+      "pl": 1,
+      "st": "566_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 255,
+      "s": "dychovka",
+      "t": 2,
+      "n": "R\u00e1dio Dychovka",
+      "st": "638_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 47,
+      "s": "europa2",
+      "t": 1,
+      "n": "Europa 2",
+      "pl": 1,
+      "st": "104_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 1,
+      "s": "expres",
+      "t": 1,
+      "n": "R\u00e1dio Expres",
+      "pl": 1,
+      "st": "2_mp3-96-kbps-stredna-kvalita"
+    },
+    {
+      "i": 256,
+      "s": "fest-dobra-muzicka",
+      "t": 2,
+      "n": "R\u00e1dio FestDobr\u00e1Muzi\u010dka",
+      "st": "625_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 211,
+      "s": "fit-family",
+      "t": 2,
+      "n": "Fit Family R\u00e1dio",
+      "pl": 1,
+      "st": "512_aac-plus-64-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 24,
+      "s": "fm",
+      "t": 1,
+      "n": "R\u00e1dio_FM",
+      "pl": 1,
+      "st": "52_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 11,
+      "s": "frontinus",
+      "t": 1,
+      "n": "R\u00e1dio Frontinus",
+      "pl": 1,
+      "st": "558_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 3,
+      "s": "fun",
+      "t": 1,
+      "n": "Fun R\u00e1dio",
+      "pl": 1,
+      "st": "9_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 74,
+      "s": "fun-80-90-roky",
+      "t": 2,
+      "n": "Fun R\u00e1dio 80. - 90. roky",
+      "pl": 1,
+      "st": "226_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 73,
+      "s": "fun-cz-sk",
+      "t": 2,
+      "n": "Fun R\u00e1dio CZ-SK",
+      "pl": 1,
+      "st": "222_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 67,
+      "s": "fun-dance",
+      "t": 2,
+      "n": "Fun R\u00e1dio Dance",
+      "pl": 1,
+      "st": "198_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 116,
+      "s": "g-radio",
+      "t": 2,
+      "n": "G-Radio",
+      "pl": 1,
+      "st": "322_mp3-80-kbps-stredna-kvalita"
+    },
+    {
+      "i": 254,
+      "s": "goldies",
+      "t": 1,
+      "n": "R\u00e1dio Goldies",
+      "st": "637_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 210,
+      "s": "infovojna",
+      "t": 2,
+      "n": "InfoVojna",
+      "st": "549_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 88,
+      "s": "janko-hrasko",
+      "t": 2,
+      "n": "R\u00e1dio Janko Hra\u0161ko",
+      "pl": 1,
+      "st": "260_mp3-64-kbps-stredna-kvalita"
+    },
+    {
+      "i": 37,
+      "s": "jemne",
+      "t": 1,
+      "n": "R\u00e1dio Jemn\u00e9",
+      "pl": 1,
+      "st": "83_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 223,
+      "s": "jemne-chillout",
+      "t": 2,
+      "n": "R\u00e1dio Jemn\u00e9 Chillout",
+      "pl": 1,
+      "st": "544_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 61,
+      "s": "junior",
+      "t": 2,
+      "n": "R\u00e1dio Junior",
+      "pl": 1,
+      "st": "160_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 240,
+      "s": "jupiter",
+      "t": 2,
+      "n": "R\u00e1dio Jupiter",
+      "pl": 1,
+      "st": "573_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 247,
+      "s": "kiks",
+      "t": 2,
+      "n": "R\u00e1dio Kiks",
+      "pl": 1,
+      "st": "589_mp3-192-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 17,
+      "s": "kiss",
+      "t": 1,
+      "n": "Kiss R\u00e1dio",
+      "pl": 1,
+      "st": "38_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 36,
+      "s": "kosice",
+      "t": 1,
+      "n": "R\u00e1dio Ko\u0161ice",
+      "pl": 1,
+      "st": "47_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 159,
+      "s": "liptov",
+      "t": 1,
+      "n": "R\u00e1dio Liptov",
+      "pl": 1,
+      "st": "433_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 60,
+      "s": "litera",
+      "t": 2,
+      "n": "R\u00e1dio Litera",
+      "pl": 1,
+      "st": "154_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 146,
+      "s": "logos",
+      "t": 2,
+      "n": "R\u00e1dio Logos",
+      "pl": 1,
+      "st": "386_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 16,
+      "s": "lumen",
+      "t": 1,
+      "n": "R\u00e1dio Lumen",
+      "pl": 1,
+      "st": "35_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 160,
+      "s": "lumen-gospel-stream",
+      "t": 2,
+      "n": "R\u00e1dio Lumen Gospel stream",
+      "pl": 1,
+      "st": "434_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 221,
+      "s": "maria",
+      "t": 2,
+      "n": "R\u00e1dio M\u00e1ria Slovensko",
+      "st": "538_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 248,
+      "s": "mirjam",
+      "t": 1,
+      "n": "Mirjam R\u00e1dio",
+      "sn": "M\u00e1ria R\u00e1di\u00f3 Felvid\u00e9k",
+      "sn2": "M\u00e1ria HU",
+      "st": "617_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 100,
+      "s": "modra",
+      "t": 1,
+      "n": "R\u00e1dio Modra",
+      "st": "343_mp3-192-kbps-vysoka-kvalita"
+    },
+    { "i": 234, "s": "muzika", "t": 1, "n": "R\u00e1dio Muzika" },
+    {
+      "i": 153,
+      "s": "new-model",
+      "t": 2,
+      "n": "New Model Radio",
+      "pl": 1,
+      "st": "422_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 120,
+      "s": "nonstop",
+      "t": 2,
+      "n": "Nonstop R\u00e1dio",
+      "pl": 1,
+      "st": "377_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 138,
+      "s": "paf",
+      "t": 2,
+      "n": "R\u00e1dio PaF",
+      "st": "371_ogg-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 250,
+      "s": "parada",
+      "t": 2,
+      "n": "R\u00e1dio Par\u00e1da",
+      "pl": 1,
+      "st": "598_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 31,
+      "s": "patria",
+      "t": 1,
+      "n": "R\u00e1dio Patria",
+      "pl": 1,
+      "st": "74_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 48,
+      "s": "piestany",
+      "t": 1,
+      "n": "R\u00e1dio Pie\u0161\u0165any",
+      "pl": 1,
+      "st": "163_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 118,
+      "s": "plus",
+      "t": 1,
+      "n": "R\u00e1dio Plus",
+      "pl": 1,
+      "st": "412_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 241,
+      "s": "pohoda",
+      "t": 2,
+      "n": "R\u00e1dio Pohoda",
+      "st": "575_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 235,
+      "s": "pokoj",
+      "t": 2,
+      "n": "R\u00e1dio Pokoj",
+      "pl": 1,
+      "st": "564_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 204,
+      "s": "pyramida",
+      "t": 2,
+      "n": "R\u00e1dio Pyram\u00edda",
+      "st": "481_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 125,
+      "s": "rapes",
+      "t": 2,
+      "n": "R\u00e1dio Rape\u0161",
+      "pl": 1,
+      "st": "347_ogg-160-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 197,
+      "s": "rebeca",
+      "t": 1,
+      "n": "R\u00e1dio Rebeca",
+      "pl": 1,
+      "st": "507_mp3-128-kbps-vysoka-kvalita"
+    },
+    { "i": 23, "s": "regina", "t": 1, "n": "R\u00e1dio Regina" },
+    {
+      "i": 56,
+      "s": "regina-zapad",
+      "t": 1,
+      "n": "R\u00e1dio Regina",
+      "sn": "Z\u00e1pad",
+      "sn2": "Z",
+      "pl": 1,
+      "st": "113_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 57,
+      "s": "regina-stred",
+      "t": 1,
+      "n": "R\u00e1dio Regina",
+      "sn": "Stred",
+      "sn2": "S",
+      "pl": 1,
+      "st": "117_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 58,
+      "s": "regina-vychod",
+      "t": 1,
+      "n": "R\u00e1dio Regina",
+      "sn": "V\u00fdchod",
+      "sn2": "V",
+      "pl": 1,
+      "st": "121_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 227,
+      "s": "rock-arena",
+      "t": 2,
+      "n": "Rock Arena",
+      "pl": 1,
+      "st": "552_mp3-24-kbps-nizka-kvalita"
+    },
+    {
+      "i": 113,
+      "s": "rusyn-fm",
+      "t": 2,
+      "n": "Rusyn FM",
+      "pl": 1,
+      "st": "317_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 25,
+      "s": "sity",
+      "t": 1,
+      "n": "R\u00e1dio SiTy",
+      "pl": 1,
+      "st": "59_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 205,
+      "s": "sky",
+      "t": 1,
+      "n": "SKY R\u00e1dio",
+      "pl": 1,
+      "st": "484_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 110,
+      "s": "slobodny-vysielac",
+      "t": 2,
+      "n": "Slobodn\u00fd vysiela\u010d",
+      "pl": 1,
+      "st": "404_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 65,
+      "s": "slovakia-international",
+      "t": 1,
+      "n": "Radio Slovakia International",
+      "st": "190_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 26,
+      "s": "slovensko",
+      "t": 1,
+      "n": "R\u00e1dio Slovensko",
+      "pl": 1,
+      "st": "62_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 112,
+      "s": "sirava",
+      "t": 1,
+      "n": "R\u00e1dio \u0160\u00edrava",
+      "st": "315_mp3-128-kbps-vysoka-kvalita"
+    },
+    { "i": 124, "s": "sturko", "t": 2, "n": "\u0160tuRKo" },
+    {
+      "i": 246,
+      "s": "the-end",
+      "t": 1,
+      "n": "R\u00e1dio The End",
+      "pl": 1,
+      "st": "587_mp3-128-kbps-stredna-kvalita"
+    },
+    {
+      "i": 130,
+      "s": "tlis",
+      "t": 2,
+      "n": "TLIS R\u00e1dio",
+      "pl": 1,
+      "st": "362_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 206,
+      "s": "trnavske",
+      "t": 1,
+      "n": "Trnavsk\u00e9 R\u00e1dio",
+      "pl": 1,
+      "st": "548_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 102,
+      "s": "tvojeradio-com-dance",
+      "t": 2,
+      "n": "tvojeRADIO.com Dance",
+      "pl": 1,
+      "st": "288_aac-plus-48-kbps-stredna-kvalita"
+    },
+    {
+      "i": 104,
+      "s": "tvojeradio-com-gold-80-90",
+      "t": 2,
+      "n": "tvojeRADIO.com Gold 80/90",
+      "pl": 1,
+      "st": "290_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 107,
+      "s": "tvojeradio-com-hip-hop",
+      "t": 2,
+      "n": "tvojeRADIO.com Hip-Hop",
+      "pl": 1,
+      "st": "293_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 103,
+      "s": "tvojeradio-com-lovesongs",
+      "t": 2,
+      "n": "tvojeRADIO.com Lovesongs",
+      "pl": 1,
+      "st": "289_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 101,
+      "s": "tvojeradio-com-pophits",
+      "t": 2,
+      "n": "tvojeRADIO.com Pophits",
+      "pl": 1,
+      "st": "287_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 106,
+      "s": "tvojeradio-com-repete",
+      "t": 2,
+      "n": "tvojeRADIO.com Repete",
+      "pl": 1,
+      "st": "292_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 105,
+      "s": "tvojeradio-com-sk-cz",
+      "t": 2,
+      "n": "tvojeRADIO.com SK/CZ",
+      "pl": 1,
+      "st": "291_aac-plus-40-kbps-stredna-kvalita"
+    },
+    {
+      "i": 244,
+      "s": "valec",
+      "t": 2,
+      "n": "R\u00e1dio Valec",
+      "pl": 1,
+      "st": "583_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 222,
+      "s": "viva",
+      "t": 1,
+      "n": "R\u00e1dio Viva",
+      "pl": 1,
+      "st": "539_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 137,
+      "s": "vlna",
+      "t": 1,
+      "n": "R\u00e1dio Vlna",
+      "pl": 1,
+      "st": "440_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 219,
+      "s": "vlna-golden-hits",
+      "t": 2,
+      "n": "R\u00e1dio Vlna Golden Hits",
+      "pl": 1,
+      "st": "520_mp3-128-kbps-vysoka-kvalita"
+    },
+    {
+      "i": 39,
+      "s": "wow",
+      "t": 1,
+      "n": "Radio Wow",
+      "pl": 1,
+      "st": "173_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 251,
+      "s": "wow-nr",
+      "t": 1,
+      "n": "Radio Wow Nitra",
+      "pl": 1,
+      "st": "592_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 123,
+      "s": "x",
+      "t": 2,
+      "n": "R\u00e1dio X",
+      "pl": 1,
+      "st": "345_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 134,
+      "s": "x-alternative",
+      "t": 2,
+      "n": "R\u00e1dio X - Alternative X",
+      "pl": 1,
+      "st": "368_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 135,
+      "s": "x-chillout",
+      "t": 2,
+      "n": "R\u00e1dio X - Chillout X",
+      "pl": 1,
+      "st": "369_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 133,
+      "s": "x-dance",
+      "t": 2,
+      "n": "R\u00e1dio X - Dance X",
+      "pl": 1,
+      "st": "367_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 132,
+      "s": "x-dnb",
+      "t": 2,
+      "n": "R\u00e1dio X - DNB X",
+      "pl": 1,
+      "st": "366_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 151,
+      "s": "x-folklore",
+      "t": 2,
+      "n": "R\u00e1dio X - Folklore X",
+      "pl": 1,
+      "st": "395_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 131,
+      "s": "x-metal",
+      "t": 2,
+      "n": "R\u00e1dio X - Metal X",
+      "pl": 1,
+      "st": "365_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 136,
+      "s": "x-oldies",
+      "t": 2,
+      "n": "R\u00e1dio X - Oldies X",
+      "pl": 1,
+      "st": "370_mp3-128-kbps-vyssia-kvalita"
+    },
+    {
+      "i": 62,
+      "s": "zahoracke",
+      "t": 1,
+      "n": "Z\u00e1hor\u00e1cke R\u00e1dio",
+      "pl": 1,
+      "st": "172_mp3-128-kbps-vyssia-kvalita"
+    }
+  ]
+}
