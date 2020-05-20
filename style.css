@@ -103,3 +103,29 @@ body {
 .saved, .saved:hover {
     background-color: #76A21E;
 }
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_button {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #76A21E;
+    padding: 0.5rem 2rem;
+    border-right: 1px solid black;
+}
+
+.menu_button:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.menu_button:last-child {
+    border-radius: 0 15px 15px 0;
+    border-right: none;
+}

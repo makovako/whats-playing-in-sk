@@ -92,6 +92,24 @@ const create_card_from_radio = (radio) => {
     filtered_radios.map((radio) => {
       container.appendChild(create_card_from_radio(radio));
     });
+    
+    const buttons = document.createElement('div')
+    buttons.classList.add('buttons');
+    
+    [{
+        name: "List saved",
+        href: "/list"
+    },{
+        name: "Pick radios",
+        href: "/pick"
+    }].map(button => {
+        const menu_button = document.createElement('a')
+        menu_button.classList.add('menu_button')
+        menu_button.setAttribute('href', button.href)
+        menu_button.textContent = button.name
+        buttons.appendChild(menu_button)
+    })
     body.appendChild(container)
+    body.appendChild(buttons)
   }
 )();
