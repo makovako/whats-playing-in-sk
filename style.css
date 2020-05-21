@@ -152,3 +152,12 @@ body {
 .menu_button:first-child:nth-last-child(1) {
     border-radius: 15px 15px 15px 15px;
 }
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.hidden {
+    display: none;
+}

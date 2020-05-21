@@ -1,7 +1,6 @@
 const RADIO_LIST_URL = "https://www.radia.sk/_radia/radia.json";
 const NOW_PLAYING_URL = "https://onair.radia.sk/all.json";
-// TODO Save to local storage and let user pick
-const weight = {
+const DEFAULT_WEIGHT = {
   expres: 100,
   fun: 95,
   europa2: 90,
@@ -11,6 +10,12 @@ const weight = {
   slovensko: 70,
   vlna: 65,
 };
+
+let weight = JSON.parse(localStorage.getItem('radio_weight'))
+if (weight === null) {
+    localStorage.setItem('radio_weight', JSON.stringify(DEFAULT_WEIGHT))
+    weight = DEFAULT_WEIGHT
+}
 
 const get_image_url = radio_name => `https://radia.sk/_radia/loga/nadpis/${radio_name}.png`
 
