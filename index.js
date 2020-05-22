@@ -84,9 +84,16 @@ const save_radio = radio => {
 }
 
 (async () => {
-    const radios = await (await fetch("radia.json")).json();
-    const now_playing = await (await fetch("all.json")).json();
-  
+    // const radios = await (await fetch("radia.json")).json();
+    // const now_playing = await (await fetch("all.json")).json();
+    const radios = await (await fetch('/.netlify/functions/fetch_resource', {
+      body: JSON.stringify({"resource": RADIO_LIST_URL})
+    })).json();
+
+    const now_playing = await (await fetch('/.netlify/functions/fetch_resource', {
+      body: JSON.stringify({"resource":NOW_PLAYING_URL})
+    })).json();
+    
     const filtered_radios = radios.radia
       .filter((radio) => Object.keys(weight).includes(radio.s))
       .sort((a, b) => weight[b.s] - weight[a.s])
