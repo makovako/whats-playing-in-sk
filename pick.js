@@ -12,9 +12,9 @@ const create_check_box = (radio, checked) => {
 
     const buttons = document.createElement('div')
     const button_up = document.createElement('button')
-    button_up.textContent = "^"
+    button_up.textContent = "⬆"
     const button_down = document.createElement('button')
-    button_down.textContent = "v"
+    button_down.textContent = "⬇"
     buttons.appendChild(button_up)
     buttons.appendChild(button_down)
 
@@ -54,6 +54,15 @@ const create_check_box = (radio, checked) => {
 
     const title = document.createElement('p')
     title.textContent = radio.n
+
+    title.addEventListener('click', e => {
+        e.preventDefault()
+        checkbox.checked = !checkbox.checked
+        const event = document.createEvent("HTMLEvents")
+        event.initEvent('change',false, true)
+        checkbox.dispatchEvent(event)
+    })
+
     check_group.appendChild(checkbox)
     check_group.appendChild(title)
     check_group.appendChild(buttons)

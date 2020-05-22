@@ -161,3 +161,92 @@ body {
 .hidden {
     display: none;
 }
+
+form#checked_form {
+    display: grid;
+    grid-auto-columns: minmax(1fr, max-content);
+    justify-items: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: auto;
+}
+
+form#checked_form > div {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form#checked_form > div > * {
+    margin: 0 0.5rem;
+}
+
+form#checked_form > div > p {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+form#checked_form > div > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form#checked_form > div > div > button {
+    
+    padding: 0.3rem 0.3rem;
+}
+
+input[type=checkbox] {
+    /* TODO */
+}
+
+input[type=checkbox]:checked:before + label:before {
+    /* TODO */
+}
+
+form#unchecked_form {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+form#unchecked_form > div {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form#unchecked_form > div > * {
+    margin: 0.2rem;
+}
+
+form#unchecked_form > div > p,
+form#checked_form > div > p {
+    transition: text-decoration 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+}
+
+form#unchecked_form > div > p:hover,
+form#checked_form > div > p:hover {
+    text-decoration: underline;
+    transform: scale(1.1,1.1);
+}
+
+form#unchecked_form > div > p {
+    margin: 0.2rem;
+    cursor: pointer;
+}
+
+button.menu_button {
+    outline: none;
+    font-weight: normal;
+    border: 0;
+    cursor: pointer;
+}
