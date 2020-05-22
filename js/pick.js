@@ -1,3 +1,5 @@
+const RADIO_LIST_URL = "https://www.radia.sk/_radia/radia.json";
+
 const body = document.body
 
 const create_check_box = (radio, checked) => {
