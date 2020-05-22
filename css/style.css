@@ -153,6 +153,30 @@ body {
     border-radius: 15px 15px 15px 15px;
 }
 
+@media (max-width:550px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(1, max-content);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu_button {
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .menu_button:first-child {
+        border-radius: 15px 15px 0px 0;
+    }
+    
+    .menu_button:last-child {
+        border-radius: 0 0 15px 15px;
+        border-bottom: none;
+    }
+}
+
 .form-group {
     display: flex;
     flex-direction: row;
