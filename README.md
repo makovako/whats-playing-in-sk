@@ -2,4 +2,6 @@
 
 This webapp lists what's playing in slovak radios.
 
-Sorce for the data is site [radia.sk](radia.sk).
+# Sources
+
+The source for the data and radio logos is [radia.sk](radia.sk).
