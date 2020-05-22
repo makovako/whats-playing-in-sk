@@ -17,7 +17,7 @@ if (weight === null) {
     weight = DEFAULT_WEIGHT
 }
 
-const get_image_url = radio_name => `https://radia.sk/_radia/loga/nadpis/${radio_name}.png`
+const get_image_url = radio_name => `img/${radio_name}.png`
 
 const create_card_from_radio = (radio) => {
     const card = document.createElement('div')

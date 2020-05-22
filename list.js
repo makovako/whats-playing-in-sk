@@ -3,7 +3,7 @@ const body = document.body
 const container = document.createElement('div')
 container.classList.add('container')
 
-const get_image_url = radio_name => `https://radia.sk/_radia/loga/nadpis/${radio_name}.png`
+const get_image_url = radio_name => `img/${radio_name}.png`
 
 const remove_song = index => {
     const data = JSON.parse(localStorage.getItem('saved_songs'))
