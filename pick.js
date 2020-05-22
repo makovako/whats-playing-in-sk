@@ -77,7 +77,11 @@ unchecked_form.id = "unchecked_form";
 
 (async () => {
 
-    const radios = await (await fetch("radia.json")).json();
+    // const radios = await (await fetch("radia.json")).json();
+    const radios = await (await fetch('/.netlify/functions/fetch_resource', {
+        method: 'POST',
+        body: JSON.stringify({"resource": RADIO_LIST_URL})
+      })).json();
     const radio_weight = JSON.parse(localStorage.getItem('radio_weight'))
     const checked_radios = []
     const unchecked_radios = []
