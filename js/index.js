@@ -126,7 +126,11 @@ const save_radio = radio => {
     },{
         name: "Pick radios",
         href: "/pick.html"
-    }].map(button => {
+    },{
+        name: "About",
+        href: "/about.html"
+    }
+  ].map(button => {
         const menu_button = document.createElement('a')
         menu_button.classList.add('menu_button')
         menu_button.setAttribute('href', button.href)

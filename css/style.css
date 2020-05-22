@@ -250,3 +250,23 @@ button.menu_button {
     border: 0;
     cursor: pointer;
 }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.center h1 {
+    margin: 1rem;
+}
+
+.center p {
+    margin: 1rem;
+}
+
+.center a {
+    color: #FF3C38;
+}
