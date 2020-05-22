@@ -1,17 +1,16 @@
 const axios = require('axios')
 
 exports.handler = async function(event, context, calback) {
-    const resource = event.resource
-
-    console.log(resource);
-
+    const {resource} = JSON.parse(event.body)
+    const res = await axios(resource)
+    const data = res.data
     let response = {
         statusCode: 200,
         headers: {
           "Content-type": "application/json"
         },
         body: JSON.stringify({
-          payload: resource
+          ...data
         })
       };
       return response;
