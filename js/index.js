@@ -105,8 +105,8 @@ const save_radio = radio => {
           index: radio.i,
           string: radio.s,
           name: radio.n,
-          interpret: playing.i,
-          track: playing.t,
+          interpret: playing.s.a,
+          track: playing.s.t,
         };
       });
 
