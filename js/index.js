@@ -100,7 +100,7 @@ const save_radio = radio => {
       .filter((radio) => Object.keys(weight).includes(radio.s))
       .sort((a, b) => weight[b.s] - weight[a.s])
       .map((radio) => {
-        const [playing] = now_playing.data.filter((play) => play.r === radio.i);
+        const [playing] = now_playing.d.filter((play) => play.r === radio.i);
         return {
           index: radio.i,
           string: radio.s,
